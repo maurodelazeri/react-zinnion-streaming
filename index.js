@@ -1,7 +1,7 @@
-import CentrifugeProvider from './src/ZinnionProvider'
-import zinnion from './src/CentComponent'
+import CentrifugeProvider from './src/CentProvider'
+import cent from './src/CentComponent'
 
 export {
   CentrifugeProvider,
-  zinnion
+  cent
 }

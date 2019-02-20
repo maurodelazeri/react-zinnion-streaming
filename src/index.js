@@ -1,2 +1,2 @@
-export { default as zinnion } from './component'
-export { default as ZinnionProvider } from './provider'
+export { default as cent } from './component'
+export { default as CentProvider } from './provider'

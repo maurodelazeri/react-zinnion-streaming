@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-const zinnion = (ComponentToWrap) => {
+const cent = (ComponentToWrap) => {
   return class extends Component {
     static contextTypes = {
-      zinnion: PropTypes.object.isRequired
+      cent: PropTypes.object.isRequired
     }
 
-    render = () => <ComponentToWrap {...this.props} zinnion={this.context.zinnion} />
+    render = () => <ComponentToWrap {...this.props} cent={this.context.cent} />
   }
 }
 
-export default zinnion
+export default cent
