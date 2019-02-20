@@ -68,6 +68,7 @@ export class SiteMetrics extends React.Component {
     console.log("history", history.data);
   }
 }
+```
 
 ### Documentation
 
@@ -90,4 +91,7 @@ export class SiteMetrics extends React.Component {
 ## License
 
 `react-zinnion-streaming` is licensed under [The MIT License (MIT)](LICENSE).
+
+```
+
 ```
