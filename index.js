@@ -1,4 +1,4 @@
-import CentrifugeProvider from "./src/ZinnionProvider";
-import zinnion from "./src/ZinnionComponent";
+import ZinnionProvider from "./src/provider";
+import zinnion from "./src/component";
 
-export { CentrifugeProvider, zinnion };
+export { ZinnionProvider, zinnion };
