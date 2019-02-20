@@ -1,6 +1,6 @@
 import React, { Component, Children } from "react";
 import PropTypes from "prop-types";
-import Centrifuge from "zinnionrifuge";
+import Centrifuge from "centrifuge";
 
 class Manager extends Centrifuge {
   constructor(...args) {
