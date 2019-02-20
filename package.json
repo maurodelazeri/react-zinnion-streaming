@@ -2,7 +2,7 @@
   "name": "react-zinnion-streaming",
   "homepage": "https://github.com/maurodelazeri/react-zinnion-streaming",
   "description": "React Component to integrate with Centrifugo.",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "readme": "README.md",
   "author": {
     "name": "Mauro Delazeri",

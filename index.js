@@ -1,2 +1,7 @@
-export { default as zinnion } from './component'
-export { default as ZinnionProvider } from './provider'
+import CentrifugeProvider from './src/ZinnionProvider'
+import zinnion from './src/CentComponent'
+
+export {
+  CentrifugeProvider,
+  zinnion
+}
