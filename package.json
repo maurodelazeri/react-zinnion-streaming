@@ -2,7 +2,7 @@
   "name": "react-zinnion-streaming",
   "homepage": "https://github.com/maurodelazeri/react-zinnion-streaming",
   "description": "React Component to integrate with Centrifugo.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "readme": "README.md",
   "author": {
     "name": "Mauro Delazeri",
@@ -20,9 +20,9 @@
     "socketjs",
     "websocket",
     "reactjs",
-    "centrifugo",
-    "centrifuge",
-    "centrifuge-js"
+    "zinnionrifugo",
+    "zinnionrifuge",
+    "zinnionrifuge-js"
   ],
   "bundleDependencies": false,
   "main": "dist/index.js",
@@ -39,7 +39,7 @@
     "url": "git+https://github.com/maurodelazeri/react-zinnion-streaming.git"
   },
   "dependencies": {
-    "centrifuge": "^2.0.1"
+    "zinnionrifuge": "^2.0.1"
   },
   "peerDependencies": {
     "prop-types": "^15.6.0",

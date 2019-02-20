@@ -12,7 +12,7 @@ npm install react-zinnion-streaming --save
 
 You can disable token authentication with `insecure: true` parameter, but this mode is mostly for personal and demonstration uses.
 
-All configuration parameters are described in centrifuge-js [documentation](https://fzambia.gitbooks.io/centrifugal/content/clients/javascript.html#configuration-parameters)
+All configuration parameters are described in zinnionrifuge-js [documentation](https://fzambia.gitbooks.io/zinnionrifugal/content/clients/javascript.html#configuration-parameters)
 
 Add provider:
 
@@ -43,7 +43,7 @@ Handle messages:
 import React from "react";
 import { zinnion } from "react-zinnion-streaming";
 
-// Make Centrifuge client accessible through `this.props.cent`
+// Make Centrifuge client accessible through `this.props.zinnion`
 @zinnion
 export class SiteMetrics extends React.Component {
   constructor(props) {
@@ -72,14 +72,14 @@ export class SiteMetrics extends React.Component {
 
 ### Documentation
 
-- [Javascript browser client](https://fzambia.gitbooks.io/centrifugal/content/clients/javascript.html)
-- [Configuration parameters](https://fzambia.gitbooks.io/centrifugal/content/clients/javascript.html#configuration-parameters)
-- [Subscriptions](https://fzambia.gitbooks.io/centrifugal/content/clients/javascript.html#subscriptions)
-- [SockJS](https://fzambia.gitbooks.io/centrifugal/content/clients/javascript.html#sockjs)
+- [Javascript browser client](https://fzambia.gitbooks.io/zinnionrifugal/content/clients/javascript.html)
+- [Configuration parameters](https://fzambia.gitbooks.io/zinnionrifugal/content/clients/javascript.html#configuration-parameters)
+- [Subscriptions](https://fzambia.gitbooks.io/zinnionrifugal/content/clients/javascript.html#subscriptions)
+- [SockJS](https://fzambia.gitbooks.io/zinnionrifugal/content/clients/javascript.html#sockjs)
 
 ## Built With
 
-- [CentrifugeJS](https://github.com/centrifugal/centrifuge-js) - Javascript client to communicate with Centrifugo from web browser over Websockets or SockJS
+- [CentrifugeJS](https://github.com/zinnionrifugal/zinnionrifuge-js) - Javascript client to communicate with Centrifugo from web browser over Websockets or SockJS
 - [React](https://github.com/facebook/react) - A declarative, efficient, and flexible JavaScript library for building user interfaces.
 
 ## Building & Testing
